@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Rubik&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	 font-family: 'Rubik', sans-serif;
+	 font-family: 'Grand Hotel', cursive;
+	font-size: 1.2rem;
+	min-height: 100%; 
+	background: #ecf0f1;
+	color: #f5f6fa;
+
+	 
+}
+
+.grid_container{
+	display: grid;
+	gap: 5px;
+	grid-template: 
+	"header" 100px
+	"navbar" 50px
+	"main"	auto
+	"sidebar" 200px
+	"footer" 50px
+	;
+}
+
+.header{
+	grid-area: header;
+	background-color: #ff6b81;
+}
+
+
+.navbar{
+	grid-area: navbar;
+	background-color: #ff6b81;
+}
+
+.main{
+	grid-area: main;
+	background-image: url(jardin7.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #ffffff;
+}
+
+.sidebar{
+	grid-area: sidebar;
+	background-color: #ffffff;
+}
+
+.footer{
+	grid-area: footer;
+	background-color: #ff6b81;
+}
+
+.logoup{ 
+	float: left;
+	margin-left: 2%;
+    margin-top: 0.5%;}
+
+#nombre{ 
+	     float: right;
+	     margin-right: 5%;
+	     padding-top: 1.5%;}
+
+#nombre a{ font-size: 8pt;
+	       
+	       text-decoration:	none; 
+	       	color:#ffffff;
+	        font-family: 'Rubik', sans-serif;
+}
+
+.titulo{ color: #ffffff;
+        font-size: 20pt;
+        margin-top: 2%;
+        margin-left: 23%;
+        padding: 2%;
+        float: left;
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.tituloparte2{
+     font-family: 'Rubik', sans-serif;
+      color: #ffffff;
+        font-size: 10pt;
+        margin-top: 5%;
+        
+        margin-left: 23%;
+        padding: 2%;
+        float: left;
+	     }
+
+.tituloparte3{ text-decoration: underline;
+               
+                }
+
+form{
+    background-color: #fd79a8;
+    width: 100%;
+
+ 
+    margin-right:10%;
+    padding: 5%;
+    
+    padding-top: 50px;
+     font-family: 'Rubik', sans-serif;
+
+}
+
+.cajas{
+    width: 50%;
+}
+
+.boton{
+    width: 80px;
+    height: 30px;
+    color: #dfe6e9;
+    background-color: #00b894;
+     font-family: 'Rubik', sans-serif;
+
+   
+}
+
+.navbar{
+	margin: 0;
+     margin-left: 2%; 
+}
+.navbar li{
+	display: inline;
+}
+
+.navbar li	a {
+	 font-family: 'Rubik', sans-serif;
+
+	font-size: 15px;
+	text-decoration: none;
+	float: right;
+	padding: 0.5%;
+	margin-top: 1%;
+	margin-right: 2%;
+	color:#1e272e; 
+	background-color: #ffffff;
+	border-radius: 20px;
+	}
+#logo{  padding-left: 1%;
+	   margin-top: -1%;
+
+	float: left;
+	   
+
+ }
+
+@media (min-width: 576px)  {
+
+	.grid_container{
+
+		grid-template: 
+		"header" 	100px 
+		"navbar" 	50px
+		"main"      350px
+		"sidebar"   350px
+		"footer" 	60px /
+	      auto;
+ 	}
+.logoup{ 
+	float: left;
+	margin-left: 2%;
+    margin-top: 0.5%;}
+
+#nombre{ 
+	     float: right;
+	     margin-right: 5%;
+	     padding-top: 3%;}
+
+#nombre a{ font-size: 8pt;
+	       
+	       text-decoration:	none; 
+	       	color:#ffffff;
+	        font-family: 'Rubik', sans-serif;
+}
+
+.titulo{ color: #ffffff;
+        font-size: 20pt;
+        margin-top: 2%;
+        margin-left: 4%;
+        padding: 2%;
+        float: left;
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.tituloparte2{
+     font-family: 'Rubik', sans-serif;
+      color: #ffffff;
+        font-size: 10pt;
+        margin-top: 5%;
+        
+        margin-left: 4%;
+        padding: 2%;
+        float: left;
+	     }
+
+.tituloparte3{ text-decoration: underline;
+               
+                }
+
+form{
+    background-color: #fd79a8;
+    width: 100%;
+
+ 
+    margin-right: 20%;
+    padding: 5%;
+    
+    padding-top: 50px;
+     font-family: 'Rubik', sans-serif;
+
+}
+
+
+
+.cajas{
+    width: 50%;
+}
+
+.boton{
+    width: 80px;
+    height: 30px;
+    color: #dfe6e9;
+    background-color: #00b894;
+     font-family: 'Rubik', sans-serif;
+
+   
+}
+
+
+
+
+
+
+
+ .navbar{
+	margin: 0;
+     margin-left: 2%; 
+}
+.navbar li{
+	display: inline;
+}
+
+.navbar li	a {
+	 font-family: 'Rubik', sans-serif;
+
+	font-size: 15px;
+	text-decoration: none;
+	float: right;
+	padding: 0.5%;
+	margin-top: 2%;
+	margin-right: 2%;
+	color:#1e272e; 
+	background-color: #ffffff;
+	border-radius: 20px;
+
+	
+	
+	
+}
+#logo{  padding-left: 1%;
+	   margin-top: -1%;
+
+	float: left;
+	   
+
+ }
+}
+
+@media (min-width: 1200px)  {
+	.grid_container{
+		grid-template: 
+		"header 	header 	header" 	100px 
+		"navbar     navbar  navbar"     50px 
+		"main       main    sidebar" 	400px
+		"footer 	footer 	footer" 	60px /
+		 400px 		auto 	200px;
+	}
+.logoup{ 
+	float: left;
+	margin-left: 2%;
+    margin-top: 0.5%;}
+
+#nombre{ 
+	     float: right;
+	     margin-right: 5%;
+	     padding-top: 1.5%;}
+
+#nombre a{ font-size: 8pt;
+	       
+	       text-decoration:	none; 
+	       	color:#ffffff;
+	        font-family: 'Rubik', sans-serif;
+}
+
+.titulo{ color: #ffffff;
+        font-size: 20pt;
+        margin-top: 2%;
+        margin-left: 25%;
+        padding: 1%;
+        float: left;
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.tituloparte2{
+     font-family: 'Rubik', sans-serif;
+      color: #ffffff;
+        font-size: 10pt;
+        margin-top: 1%;
+        
+        margin-left: 25%;
+        padding: 1%;
+        float: left;
+	     }
+
+.tituloparte3{ text-decoration: underline;
+               
+                }
+
+form{
+    background-color: #fd79a8;
+    width: 100%;
+    height: 100%;
+
+ 
+    margin-right:10%;
+    padding: 5%;
+    
+    padding-top: 50px;
+     font-family: 'Rubik', sans-serif;
+
+}
+
+.cajas{
+    width: 80%;
+}
+
+.boton{
+    width: 80px;
+    height: 30px;
+    color: #dfe6e9;
+    background-color: #00b894;
+     font-family: 'Rubik', sans-serif;
+
+   
+}
+.navbar{
+	margin: 0;
+     margin-left: 2%; 
+
+}
+.navbar li{
+	display: inline;
+}
+
+.navbar li	a {
+	 font-family: 'Rubik', sans-serif;
+
+	font-size: 15px;
+	text-decoration: none;
+	float: right;
+	padding: 0.5%;
+	margin-top: 1%;
+	margin-right: 2%;
+	color:#1e272e; 
+	background-color: #ffffff;
+	border-radius: 20px;
+	
+
+	
+	
+	
+}
+#logo{  padding-left: 1%;
+	   margin-top: -1%;
+
+	float: left;
+	   
+
+ }
+} 
+
+
+@media (min-width: 992px)  {
+	.grid_container{
+		grid-template: 
+		"header 	header   header"    100px 
+		"navbar     navbar   navbar"    50px 
+		"main       main     sidebar"   390px
+		"footer 	footer   footer"    60px /
+		 400px 		auto     200px;
+	}
+
+
+.logoup{ 
+	float: left;
+	margin-left: 2%;
+    margin-top: 0.5%;}
+
+#nombre{ 
+	     float: right;
+	     margin-right: 5%;
+	     padding-top: 1.5%;}
+
+#nombre a{ font-size: 8pt;
+	       
+	       text-decoration:	none; 
+	       	color:#ffffff;
+	        font-family: 'Rubik', sans-serif;
+}
+
+.titulo{ color: #ffffff;
+        font-size: 20pt;
+        margin-top: 2%;
+        margin-left: 25%;
+        padding: 2%;
+        float: left;
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.tituloparte2{
+     font-family: 'Rubik', sans-serif;
+      color: #ffffff;
+        font-size: 10pt;
+        margin-top: 2%;
+        
+        margin-left: 25%;
+        padding: 2%;
+        float: left;
+	     }
+
+.tituloparte3{ text-decoration: underline;
+               
+                }
+
+form{
+    background-color: #fd79a8;
+    width: 100%;
+    height: 100%;
+
+ 
+    margin-right:10%;
+    padding: 5%;
+    
+    padding-top: 50px;
+     font-family: 'Rubik', sans-serif;
+
+}
+
+.cajas{
+    width: 80%;
+}
+
+.boton{
+    width: 80px;
+    height: 30px;
+    color: #dfe6e9;
+    background-color: #00b894;
+     font-family: 'Rubik', sans-serif;
+
+   
+}
+
+
+
+
+
+
+
+ .navbar{
+	margin: 0;
+     margin-left: 2%; 
+
+}
+.navbar li{
+	display: inline;
+}
+
+.navbar li	a {
+	 font-family: 'Rubik', sans-serif;
+
+	font-size: 15px;
+	text-decoration: none;
+	float: right;
+	padding: 0.5%;
+	margin-top: 1%;
+	margin-right: 2%;
+	color:#1e272e; 
+	background-color: #ffffff;
+	border-radius: 20px;
+	
+
+	
+	
+	
+}
+#logo{  padding-left: 1%;
+	   margin-top: -1%;
+
+	float: left;
+	   
+
+ }
+
+
+
+
+
+}
